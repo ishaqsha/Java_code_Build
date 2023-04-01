@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>visualpath</name>
-	<description>AWS DevOps Demo Project - visualpath DevOps Project</description>
+	<description>Ishaque DevOps Demo Project - Ishaque DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
