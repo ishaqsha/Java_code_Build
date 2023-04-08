@@ -42,12 +42,12 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-25-163.ap-southeast-2.compute.internal-releases</name>
-        <url>http://3.26.20.11:8081/artifactory/Maven_Sample</url>
+        <url>http://3.25.252.252:8081/artifactory/Maven_Sample</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-25-163.ap-southeast-2.compute.internal-snapshots</name>
-        <url>http://3.26.20.11:8081/artifactory/Maven_Sample</url>
+        <url>http://3.25.252.252:8081/artifactory/Maven_Sample</url>
     </snapshotRepository>
 </distributionManagement>
 
