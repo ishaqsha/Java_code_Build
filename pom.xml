@@ -41,13 +41,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>jfrog.visualpath.in-releases</name>
-        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
+        <name>ip-172-31-25-163.ap-southeast-2.compute.internal-releases</name>
+        <url>http://52.62.181.53:8081/artifactory/Maven_Sample</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>jfrog.visualpath.in-snapshots</name>
-        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
+        <name>ip-172-31-25-163.ap-southeast-2.compute.internal-snapshots</name>
+        <url>http://52.62.181.53:8081/artifactory/Maven_Sample</url>
     </snapshotRepository>
 </distributionManagement>
 
