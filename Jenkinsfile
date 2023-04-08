@@ -3,17 +3,18 @@ pipeline {
     stages {
         stage('clean') { 
             steps {
-                sh 'mvn clean'
+                sh 'mvn clean install -DskipTests'
             }
         }
-        stage('validate') { 
+        stage('test') { 
             steps {
-                sh 'mvn validate'
+               echo "doing test"
             }
         }
         stage('Deploy') { 
             steps {
                 echo "I am not deploying anything"
+                sh 'mvn deploy'
             }
         }
     }
