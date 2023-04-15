@@ -6,16 +6,46 @@ pipeline {
                 sh 'mvn clean install -DskipTests'
             }
         }
+        stage('validate') { 
+            steps {
+                sh 'mvn validate'
+            }
+        }
+       stage('compile') { 
+            steps {
+                sh 'mvn compile'
+            }
+        }
         stage('test') { 
             steps {
-               echo "doing test"
+                sh 'mvn test -DskipTests'
+            }
+        }
+        stage('package') { 
+            steps {
+                sh 'mvn package -DskipTests'
+            }
+        }
+        stage('verify') { 
+            steps {
+                sh 'mvn verify -DskipTests'
+            }
+        }
+        stage('install') { 
+            steps {
+               sh 'mvn install -DskipTests'
             }
         }
         stage('Deploy') { 
             steps {
-                echo "I am not deploying anything"
-                sh 'mvn deploy'
+                
+                sh 'mvn deploy -DskipTests'
             }
+        stage('release') { 
+            steps {
+                sh 'mvn release -DskipTests -DskipTests'
+            }
+         }
         }
     }
 }
