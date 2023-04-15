@@ -41,11 +41,11 @@ pipeline {
                 
                 sh 'mvn deploy -DskipTests'
             }
+        }
         stage('release') { 
             steps {
                 sh 'mvn release -DskipTests -DskipTests'
             }
-         }
         }
     }
 }
