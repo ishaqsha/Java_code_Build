@@ -32,9 +32,9 @@
 	</properties>
 	
 	<scm>
-		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
-		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
-		<url>git@gitlab.com:cloudbinary/cb_java_code.git</url>
+		<connection>scm:git@github.com:ishaqsha/Java_code_Build.git</connection>
+		<developerConnection>scm:git:git@github.com:ishaqsha/Java_code_Build.git</developerConnection>
+		<url>git@git@github.com:ishaqsha/Java_code_Build.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
