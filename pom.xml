@@ -40,13 +40,13 @@
 	<distributionManagement>
     		<repository>
         		<id>central</id>
-        		<name>ip-172-31-31-228.ap-southeast-2.compute.internal-releases</name>
-        		<url>http://3.27.105.135:8081/artifactory/maven_project</url>
+        		<name>ip-172-31-31-194.ap-southeast-2.compute.internal-releases</name>
+        		<url>http://13.211.253.82:8081/artifactory/maven_project</url>
     		</repository>
     		<snapshotRepository>
         		<id>snapshots</id>
-        		<name>ip-172-31-31-228.ap-southeast-2.compute.internal-snapshots</name>
-        		<url>http://3.27.105.135:8081/artifactory/maven_project</url>
+        		<name>ip-172-31-31-194.ap-southeast-2.compute.internal-snapshots</name>
+        		<url>http://13.211.253.82:8081/artifactory/maven_project</url>
     		</snapshotRepository>
 	</distributionManagement>
 
