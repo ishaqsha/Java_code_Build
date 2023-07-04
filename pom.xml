@@ -38,11 +38,11 @@
 		<tag>HEAD</tag>
 	</scm>
 
-         <distributionManagement>
+        <distributionManagement>
   		<repository>
-    			<id>ishaq-java-devops-Maven-Project</id>
-    			<name>ishaq-java-devops-Maven-Project</name>
-    			<url>https://ishaq-java-devops-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Maven-Project/</url>
+    		<id>java-shaikh-java-shaikh</id>
+    		<name>java-shaikh-java-shaikh</name>
+    		<url>https://java-shaikh-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/java-shaikh/</url>
   		</repository>
 	</distributionManagement>
 	<dependencies>
