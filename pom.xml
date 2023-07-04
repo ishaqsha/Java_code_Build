@@ -37,21 +37,14 @@
 		<url>git@git@github.com:ishaqsha/Java_code_Build.git</url>
 		<tag>HEAD</tag>
 	</scm>
-	
-	<distributionManagement>
-    		<repository>
-        		<id>central</id>
-        			<name>ip-172-31-31-194.ap-southeast-2.compute.internal-releases</name>
-        			<url>http://13.236.69.174:8081/artifactory/maven_project</url>
-    			</repository>
-    			<snapshotRepository>
-        			<id>snapshots</id>
-        			<name>ip-172-31-31-194.ap-southeast-2.compute.internal-snapshots</name>
-        			<url>http://13.236.69.174:8081/artifactory/maven_project</url>
-    			</snapshotRepository>
+
+         <distributionManagement>
+  		<repository>
+    			<id>ishaq-java-devops-Maven-Project</id>
+    			<name>ishaq-java-devops-Maven-Project</name>
+    			<url>https://ishaq-java-devops-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Maven-Project/</url>
+  		</repository>
 	</distributionManagement>
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
