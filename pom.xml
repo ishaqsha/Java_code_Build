@@ -40,9 +40,9 @@
 
         <distributionManagement>
   		<repository>
-    		<id>java-shaikh-java-shaikh</id>
-    		<name>java-shaikh-java-shaikh</name>
-    		<url>https://java-shaikh-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/java-shaikh/</url>
+    		<id>codeartifact-Javacodebuild</id>
+    		<name>codeartifact-Javacodebuild</name>
+    		<url>https://codeartifact-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Javacodebuild/</url>
   		</repository>
 	</distributionManagement>
 	<dependencies>
