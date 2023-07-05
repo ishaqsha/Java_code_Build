@@ -40,9 +40,9 @@
 
         <distributionManagement>
   		<repository>
-    		<id>codeartifact-Javacodebuild</id>
-    		<name>codeartifact-Javacodebuild</name>
-    		<url>https://codeartifact-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Javacodebuild/</url>
+    		<id>java-devops-Java-devops</id>
+    		<name>java-devops-Java-devops</name>
+    		<url>https://java-devops-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Java-devops/</url>
   		</repository>
 	</distributionManagement>
 	<dependencies>
